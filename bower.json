@@ -1,0 +1,22 @@
+{
+  "name": "rokt-react-app",
+  "description": "App to build ROKT templates",
+  "main": "",
+  "authors": [
+    "Ryan Wessel"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.7"
+  }
+}

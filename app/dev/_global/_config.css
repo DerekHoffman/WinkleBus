@@ -1,0 +1,16 @@
+/* This will set properties and variables for the <html> element, so these will be globally applied */
+:root {
+	--standard-font: 'Lato', var(--arial-font);
+	--sanchez-font: 'Sanchez', serif;
+	--arial-font: Arial, sans-serif;
+	--opensans-font: 'Open Sans', var(--arial-font);
+}
+
+/* Set custom breakpoints for responsive design */
+@custom-media --small (min-width: 768px);
+@custom-media --medium (min-width: 992px);
+@custom-media --large (min-width: 1200px);
+
+@custom-media --only-small-screen (width >= --small) and (width <= --medium);
+@custom-media --only-medium-screen (width >= --medium) and (width <= --large);
+@custom-media --only-large-screen (width >= --large);
